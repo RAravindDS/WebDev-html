@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="RAravindDS"> 
+    <meta name="description" content="This is for learning the tags in the HTML"> 
+    <link rel="icon" href="html5.png"> 
+    <link rel="stylesheet" href="main.css"> 
+</head>
+
+<body> 
+
+    <h1>Hellow World!</h1>
+    <hr> <!-- Horizontal rule-->
+    <h2>I am ready to learn web page.</h2> 
+    <p> This is my firt web page </p>
+    <hr>
+    <h3>My Daily Schedule</h3>
+    <p> let me tell you how I..</p>
+    <br> <!-- line break-->
+    <h4>I learn more about web dev</h4>
+
+    <!-- Preceding elements are block elements it means it start with new line with some space, let's see some inline elements, it present inside the element-->
+    <p> I want to be a <em>DataScientist</em> with strong in <strong>Cloud Computing</strong></p><!-- Em means emphasis-->
+    <p> <abbr title="Mozilla Developer Network">MDN</abbr> </p>
+    <p> My addresss is <address>
+        20/A <br>
+        kalki Agraharam,<br>
+        Thiruvaiyaru,<br>
+        Thanjavur (<em>Dist</em>)</address> </p> 
+
+
+    <!--html entities-->
+    &lt;&copy;Aravind &gt; <!-- lt : lesser than, gt : greter than -->
+
+
+    <!-- list in html-->
+    <ul>
+        <li> this is unordered list</li> <!-- list item -->
+        <li> this is also un-ordered list</li>
+    </ul>
+
+    <ol> 
+        <li> This is ordered list </li>
+        <li> This is also a ordered list </li>
+    </ol>
+    
+    <dl> <!-- description list-->
+        <dt>North Pole</dt> <!-- Description term-->
+        <dd>I hear this is <strong>cold</strong>!</dd>  <!-- description detail-->
+    </dl>
+
+
+    <!-- Linking -->
+    <!-- Absolute Reference : https://www.youtube.com/watch?v=iMj-TbN7ydg
+         Relative Reference : html5.png
+         Internal Reference : #class id -->
+    <p> I am learning HTML from this <a href="https://www.youtube.com/watch?v=iMj-TbN7ydg"> youtube</a> series </p> <!--anchor tag-->
+    <p> This is my name <a href="0__about.html"> Aravind</a></p>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="#checking">Checking the first one</a>  <!-- Internal linking-->
+            </li>
+            <li>
+                <a href="#again">Checking again</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Semantic Html-->
+    <section id="checking">
+        <ul>
+            <li> Just checking the list section</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="again">
+        <ul>
+            <li>Just checking again and again</li>
+        </ul>
+    </section>
+
+
+    <hr>
+    <ul>
+        <li>Download an <a href="html5.png" download>HTML favicon</a></li> <!-- download link-->
+        <li>Connact me at <a href="mailto:random@gmail.com">my email addresss.</a></li> <!-- Mail link-->
+        <li>Dial <a href="tel:+91978978743">my phone number</a></li> <!-- phone number-->
+        <li> <a href="https://www.google.com/" target="_blank">Open Google on new tab!</a></li>  <!-- new page-->
+        <li> <a href="/"> Link to home page</a></li> <!-- Link to root page-->
+
+    </ul>
+
+</body>
